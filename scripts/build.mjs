@@ -14,7 +14,7 @@ const pages = ['commercial', 'residential', 'icf', 'projects', 'about', 'resourc
 for (let number = 1; number <= 12; number++) {
   const concept = `concept-${String(number).padStart(2, '0')}`;
   const routes = [concept, ...pages.map(page => `${concept}/${page}`)];
-  for (const route of routes) {
+  for (const route of [...routes,...routes.map(route=>'b/'+route),...routes.map(route=>'c/'+route),'b','c']) {
     for (const root of ['dist', 'dist/public']) {
       await mkdir(`${root}/${route}`, { recursive: true });
       await writeFile(`${root}/${route}/index.html`, html);

@@ -1,0 +1,27 @@
+{
+  "versions": [
+    "A original",
+    "B 2026 West Florida",
+    "C research-led West Florida"
+  ],
+  "designs": 12,
+  "contentPagesPerVersion": 108,
+  "totalContentPages": 324,
+  "galleries": 3,
+  "desktopBrowserChecks": {
+    "newBandCPages": 216,
+    "issues": 0
+  },
+  "mobileBrowserChecks": {
+    "width": 390,
+    "homepages": 36,
+    "overflow": 0
+  },
+  "navigationVerified": [
+    "switch B/C preserves concept and ICF page",
+    "next design preserves version and page",
+    "design selector preserves version and page"
+  ],
+  "sourceReport": "docs/copy-c-research.md",
+  "limits": "Representative visual review, not every scroll position or browser. No conversion experiment."
+}

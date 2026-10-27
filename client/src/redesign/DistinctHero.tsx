@@ -1,6 +1,6 @@
 import {useState,type CSSProperties} from 'react';
 import './distinct.css';
-type Props={c:{id:string;name:string;style:string;lead:string;pages:Record<string,{title:string;intro:string}>};page:string;base:string;title:string;intro:string};
+type Props={c:{id:string;name:string;style:string;lead:string;copyVersion?:'B'|'C';homeTitles?:string[];pages:Record<string,{title:string;intro:string}>};page:string;base:string;title:string;intro:string};
 export const motionNames=['Sliding editorial cover','Architectural aperture','Moving construction billboard','Coastal curtain reveal','Blueprint light scan','Exploded ICF assembly','Structural photo assembly','Climate flow study','Opening picture doors','Orbiting project atlas','Residential / commercial reveal','Floating project scrapbook'];
 const photos={Residential:'https://cccbuild.com/wp-content/uploads/2025/04/Coastal-Home.jpg',Commercial:'/ccc/hangar.jpg',ICF:'/ccc/icf-build.jpg'};
 function Image({src,cls=''}:{src:string;cls?:string}){return <img className={cls} src={src} alt="Construction photography from Coastal Cornerstone Construction’s current website" width="1100" height="800"/>}
@@ -9,10 +9,10 @@ export default function DistinctHero({c,page,base,title,intro}:Props){
  const [sector,setSector]=useState(c.lead==='Residential'?'Residential':'Commercial');
  const [amount,setAmount]=useState(55);const [open,setOpen]=useState(true);const [selected,setSelected]=useState(0);const [flow,setFlow]=useState('Heat');
  const home=page==='home';const src=page==='icf'?photos.ICF:page==='residential'?photos.Residential:page==='commercial'?photos.Commercial:photos[sector as keyof typeof photos];
- const heading=home?(sector==='Residential'?'Your Dream Home, Built to Last':'Commercial & Government-Grade Expertise'):title;
+ const heading=home?(!!c.copyVersion?c.homeTitles?.[sector==='Residential'?1:0]||title:sector==='Residential'?'Your Dream Home, Built to Last':'Commercial & Government-Grade Expertise'):title;
  const description=home?c.pages[sector.toLowerCase()].intro:intro;
  const sectorNav=<div className="d-sectors" role="group" aria-label="Choose building sector">{['Residential','Commercial'].map(s=><button key={s} aria-pressed={sector===s} onClick={()=>setSector(s)}>{s}<span>↗</span></button>)}</div>;
- const copy=<div className="d-copy"><span className="d-kicker">Coastal Cornerstone Construction / {home?sector:page}</span><h1>{heading}</h1><p>{description}</p><div className="d-actions"><a href={base+'/'+(home?sector.toLowerCase():'contact')}>{home?'Explore '+sector.toLowerCase():'Discuss your project'} ↗</a><a href={base+'/icf'}>Discover ICF →</a></div></div>;
+ const copy=<div className="d-copy"><span className="d-kicker">{!!c.copyVersion?'West Florida / Clearwater · Tampa Bay':'Coastal Cornerstone Construction'} / {home?sector:page}</span><h1>{heading}</h1><p>{description}</p><div className="d-actions"><a href={base+'/'+(home?sector.toLowerCase():'contact')}>{home?'Explore '+sector.toLowerCase():'Discuss your project'} ↗</a><a href={base+'/icf'}>Discover ICF →</a></div></div>;
  const sig=<span className="d-signature">{motionNames[Number(c.id)-1]}</span>;
  const thumb=(image:string,caption:string)=><figure><Image src={image}/><figcaption>{caption}</figcaption></figure>;
  let body;

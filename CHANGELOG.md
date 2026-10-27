@@ -57,3 +57,10 @@ Rebuilt all 12 sites with distinct structural heroes, navigation and typographic
 - Added residential/commercial controls and kept original company copy, logo and photography.
 - Differentiated supporting sections, gallery previews and full-page colors.
 - Browser QA now available: checked all 108 pages on desktop, all 12 homepages at 390px, representative screenshots and interaction controls. Fixed two mobile explorer overflow issues.
+
+## B and C copy collections with shared navigation
+- Added B: updated 2026 copy focused on Clearwater, Tampa Bay and West Florida.
+- Added C after researching company sources, DOE/PNNL, local government, DBPR and usability guidance.
+- Added a sticky A/B/C and design navigation bar to all designs and galleries. Switching retains the current page.
+- Retained original copy A, logo, photos and PDF.
+- Checked 216 new B/C pages in the browser and 36 mobile homepages.

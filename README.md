@@ -26,3 +26,6 @@ The large coastal photograph and capability PDF are referenced from their existi
 
 ### Signature motion update
 All twelve concepts now have dedicated hero compositions and signature motion. See docs/signature-motion-audit.json for current browser checks; it supersedes the earlier unavailable-browser note. Original company copy, logo and photography remain.
+
+### Copy A / B / C
+Original copy: /. West Florida refresh: /b/. Research-led copy: /c/. Each collection contains all twelve designs and nine pages per design. The sticky review toolbar preserves the page when switching design or copy. See docs/copy-c-research.md and docs/copy-versions-audit.json.
