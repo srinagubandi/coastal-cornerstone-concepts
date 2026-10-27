@@ -1,0 +1,11 @@
+{
+  "passes": 2,
+  "pages": 108,
+  "uniquePageHeadings": 108,
+  "uniqueSectionHeadings": 108,
+  "uniqueHeroCompositions": 12,
+  "missingEssentials": [],
+  "missingImages": [],
+  "galleryLinks": 12,
+  "visualQA": "Unavailable: both browser and native computer-use runtimes could not start."
+}

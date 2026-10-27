@@ -369,3 +369,16 @@ button:focus-visible, a:focus-visible { outline: 3px solid #f6b78f; outline-offs
 }
 
 @media (prefers-reduced-motion: reduce) { *, *:before, *:after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
+.gallery-concept-card.card-04 { background:#dce5dd; color:#123d47; }
+.card-04 .concept-card-art:before { background:linear-gradient(180deg,transparent,#dce5dd 88%),url('/ccc/coastal-home.jpg') center/cover; opacity:.7; }
+.gallery-concept-card.card-05 { background:#dce5ed; color:#17394f; }
+.card-05 .concept-card-art:before { background:linear-gradient(180deg,transparent,#dce5ed 88%),url('/ccc/commercial.jpg') center/cover; opacity:.7; }
+.gallery-concept-card.card-06 { background:#d1dfca; color:#153c3e; }
+.card-06 .concept-card-art:before { background:linear-gradient(180deg,transparent,#d1dfca 88%),url('/ccc/icf-build.jpg') center/cover; opacity:.7; }
+.card-04 .card-index,.card-05 .card-index,.card-06 .card-index { color:#183f4c; }
+.concept-ribbon { height:auto!important; min-height:48px; flex-wrap:wrap; }
+.ribbon-links { flex-wrap:wrap; min-height:44px; }
+
+.gallery-concept-card.card-07{background:#19323a;color:#f5f2e9}.card-07 .concept-card-art:before{background:linear-gradient(180deg,transparent,#19323a 88%),url('/ccc/icf-build.jpg') center/cover;opacity:.65}.gallery-concept-card.card-08{background:#173c6c;color:#f5f6ed}.card-08 .concept-card-art:before{background:linear-gradient(180deg,transparent,#173c6c 88%),url('/ccc/hangar.jpg') center/cover;opacity:.65}.gallery-concept-card.card-09{background:#eee3d4;color:#273f45}.card-09 .concept-card-art:before{background:linear-gradient(180deg,transparent,#eee3d4 88%),url('/ccc/coastal-home.jpg') center/cover;opacity:.75}.card-09 .card-index{color:#9b4a31}.card-08 .card-index{color:#d6eab4}@media(min-width:801px){.ribbon-links a{padding-inline:7px;font-size:9px}.concept-ribbon{gap:12px}}
+
+.card-10{background:#eff0e8;color:#243e3a}.card-11{background:#1540ae;color:#fff}.card-12{background:#4c2946;color:#f3edf1}.card-10 .concept-card-art:before{background:linear-gradient(140deg,#aebeb4,transparent)}.card-11 .concept-card-art:before{background:linear-gradient(45deg,#6383e0,transparent)}.card-12 .concept-card-art:before{background:linear-gradient(180deg,transparent,#4c2946),url(/ccc/coastal-home.jpg) center/cover}

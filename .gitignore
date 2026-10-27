@@ -99,6 +99,8 @@ jspm_packages/
 # Temporary folders
 tmp/
 temp/
+source-archive/
+.openai/
 
 # Database
 *.db

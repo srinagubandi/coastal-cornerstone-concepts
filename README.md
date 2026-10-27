@@ -1,70 +1,25 @@
-# Coastal Cornerstone Construction — Website Concepts
+# Coastal Cornerstone Construction: 12 website directions
 
-A public, mobile-first concept gallery for Coastal Cornerstone Construction. It contains three deliberately different homepage directions rather than three variants of one theme.
+Public review: https://coastal-cornerstone-six-concepts.srinagubandi-6937.chatgpt.site/
 
-**Live Manus deployment:** https://coastalcc-pqgdyngy.manus.space
+All twelve concepts were rebuilt in two implementation/audit loops. Each has nine pages: Home, Commercial, Residential, ICF, Process, About, Projects, Contact and Resources. The comparison gallery opens each full site.
 
-## What is in the repository
+See DESIGN.md for directions and verification scope, docs/redesign-two-loop-audit.json for checks, and docs/distinctive-ai-web-research.md for research.
 
-| Route | Direction | Purpose |
-| --- | --- | --- |
-| `/` | Concept gallery | Compares the three design directions. |
-| `/concept-01` | The Foundry | Editorial, project-led, and warm. |
-| `/concept-02` | The Archive | Architecture-first and portfolio-focused. |
-| `/concept-03` | The Field Office | High-contrast, direct, and conversion-oriented. |
+## Development
 
-The source is a Vite, React, TypeScript, and Tailwind CSS project. The implementation is deliberately static: no database, API keys, authentication, or server-side application code is required.
+Install with pnpm install, check with pnpm check, and build with pnpm build. The build generates static deep-link entry files as well as the Node server. The public preview stays separate from cccbuild.com.
 
-## Run locally
+## Contact behavior
 
-```bash
-pnpm install
-pnpm dev
-```
+Inquiries prepare an email draft in the visitor's email application. Nothing is sent automatically. Production lead routing, analytics and owner-approved business claims still require implementation and review.
 
-Use the development URL printed by Vite. Before opening a pull request or publishing, run:
+## Source status
 
-```bash
-pnpm check
-pnpm build
-```
+The user requested srinagubandi/coastal-cornerstone-concepts as the handoff repository. Changes are in the local workspace and the review site's source repository. A dedicated handoff branch is being prepared: feat/twelve-distinct-designs-two-loops. Main is not merged by this workflow. No credentials are stored in source files.
 
-## AI-agent handoff
+## QA limitation
 
-Read [AI_AGENT_HANDOFF.md](AI_AGENT_HANDOFF.md) before modifying the site. It describes the desired design character, route map, asset workflow, content constraints, QA requirements, and the branch-based delivery process.
+TypeScript, production build and 108-page server rendering passed. Browser and native computer-use tools were unavailable for the two-loop rebuild; visual/mobile browser QA is incomplete.
 
-## Branching and contribution rules
-
-This repository is public. Do not commit credentials, API keys, customer data, proprietary assets, or unapproved project information.
-
-1. Create a dedicated branch such as `feat/project-case-studies` or `fix/mobile-navigation`.
-2. Make one focused change set per branch.
-3. Run `pnpm check && pnpm build`.
-4. Open a pull request against `main` with a concise testing summary.
-5. Publish only after an authorized reviewer has approved the branch or deployment action.
-
-The current handoff branch is `handoff/ai-agent-setup`. It documents the verified starting state of the concept gallery.
-
-## Asset workflow
-
-The hero images are intentionally stored in Manus Storage rather than in `client/public` or `client/src/assets`. They are public at the following URLs and are referenced by their `/manus-storage/...` paths in `client/src/pages/Home.tsx`:
-
-- https://coastalcc-pqgdyngy.manus.space/manus-storage/coastal-concept-hero-1_b3af4bad.jpg
-- https://coastalcc-pqgdyngy.manus.space/manus-storage/coastal-concept-hero-2_df32b059.jpg
-- https://coastalcc-pqgdyngy.manus.space/manus-storage/coastal-concept-hero-3_6b913376.jpg
-
-For a new Manus WebDev project, keep originals outside the project and upload them before publishing:
-
-```bash
-manus-upload-file --webdev /absolute/path/to/image.jpg
-```
-
-Then replace the relevant path in `client/src/pages/Home.tsx` with the returned `/manus-storage/...` path. Avoid committing large images into the frontend project because that can slow or block deployment.
-
-## Content status
-
-This is a visual concept and should not be treated as approved production copy. Before production launch, replace conceptual imagery and validate every business claim, phone number, service description, credential, testimonial, project permission, form consent notice, and analytics configuration.
-
-## Publishing
-
-The existing public Manus deployment is available at the link above. A future agent can publish an approved branch through its own authorized Manus WebDev account or through another authorized hosting workflow. This repository intentionally contains no Manus, hosting, or GitHub credentials.
+The large coastal photograph and capability PDF are referenced from their existing cccbuild.com URLs in the current source. Their working downloads remain in the local source archive.
