@@ -51,3 +51,9 @@ Rebuilt all 12 sites with distinct structural heroes, navigation and typographic
 - All twelve designs now reuse Home, About, Services and Projects wording from cccbuild.com.
 - Retained original logo and photographs; source-image hashes matched the archived originals. Added source photos to supporting service pages.
 - Supplemental ICF explanation and working inquiry instructions retained.
+
+## Twelve signature motion designs
+- Replaced all hero compositions with twelve distinct photo, structure and material interactions.
+- Added residential/commercial controls and kept original company copy, logo and photography.
+- Differentiated supporting sections, gallery previews and full-page colors.
+- Browser QA now available: checked all 108 pages on desktop, all 12 homepages at 390px, representative screenshots and interaction controls. Fixed two mobile explorer overflow issues.

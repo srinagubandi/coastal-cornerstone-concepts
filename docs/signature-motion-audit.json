@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-27",
+  "inspiration": "https://comradeweb.com/blog/home-builders-websites/",
+  "scope": "All twelve designs; retained existing company copy, original logo and source photos.",
+  "signatures": [
+    "Sliding editorial cover",
+    "Architectural aperture",
+    "Moving construction billboard",
+    "Coastal curtain reveal",
+    "Blueprint light scan",
+    "Exploded ICF assembly",
+    "Structural photo assembly",
+    "Climate flow study",
+    "Opening picture doors",
+    "Orbiting project atlas",
+    "Residential / commercial reveal",
+    "Floating project scrapbook"
+  ],
+  "validation": {
+    "desktopHomepages": 12,
+    "desktopSupportingPages": 96,
+    "desktopOverflow": 0,
+    "mobileHomepages": 12,
+    "mobileWidth": 390,
+    "mobileOverflowAfterFix": 0,
+    "interactions": [
+      "residential/commercial sector switching",
+      "ICF wall assemble toggle",
+      "structural panels toggle",
+      "climate Rain mode",
+      "comparison slider keyboard changes state",
+      "animation pause pauses CSS animation",
+      "mobile navigation opens"
+    ],
+    "visualReview": [
+      "03 desktop",
+      "02 desktop",
+      "06 desktop interaction",
+      "05 desktop",
+      "12 desktop",
+      "09 mobile"
+    ],
+    "consoleErrors": 0
+  },
+  "limitations": "Visual review covers representative views, not every scroll position or browser. Contact forms still prepare email drafts, not backend submissions."
+}

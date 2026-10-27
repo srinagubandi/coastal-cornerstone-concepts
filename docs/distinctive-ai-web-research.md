@@ -56,3 +56,6 @@ Each has original headings and introductory copy for Home, Commercial, Residenti
 ## Limits
 
 This is a qualitative source review and design synthesis, not a conversion experiment or certification. The existing business claims and source photography have not been independently audited. Implementation checks are recorded separately; successful compilation is not a substitute for browser inspection.
+
+## Builder website reference applied
+Reference: https://comradeweb.com/blog/home-builders-websites/ (reviewed October 27, 2026). Applied photography-led presentation, clear portfolio routes, and visible contact paths. The twelve designs use separate compositions and motion mechanics rather than variations of one hero. Existing CCC copy, logo and photographs are retained; no imagery or copy from other builders was copied.

@@ -23,3 +23,6 @@ The user requested srinagubandi/coastal-cornerstone-concepts as the handoff repo
 TypeScript, production build and 108-page server rendering passed. Browser and native computer-use tools were unavailable for the two-loop rebuild; visual/mobile browser QA is incomplete.
 
 The large coastal photograph and capability PDF are referenced from their existing cccbuild.com URLs in the current source. Their working downloads remain in the local source archive.
+
+### Signature motion update
+All twelve concepts now have dedicated hero compositions and signature motion. See docs/signature-motion-audit.json for current browser checks; it supersedes the earlier unavailable-browser note. Original company copy, logo and photography remain.
