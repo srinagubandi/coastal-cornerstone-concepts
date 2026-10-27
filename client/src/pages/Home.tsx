@@ -15,6 +15,9 @@ import {
 
 const CONTACT_URL = "https://cccbuild.com/contact-us/";
 
+// Large hero visuals are deliberately hosted in Manus Storage instead of the source tree.
+// When moving this project to another Manus WebDev project, re-upload the originals and
+// replace only these paths with the newly returned /manus-storage/... values.
 const images = {
   foundry: "/manus-storage/coastal-concept-hero-1_b3af4bad.jpg",
   archive: "/manus-storage/coastal-concept-hero-2_df32b059.jpg",
@@ -488,6 +491,8 @@ function ConceptFooter({ variant }: { variant: "foundry" | "archive" | "field" }
 }
 
 export default function Home() {
+  // This compact route switch keeps the gallery and all three concepts in one reviewable
+  // file. Split the selected direction into reusable page components before production expansion.
   const route = window.location.pathname;
   if (route === "/concept-01") return <FoundryConcept />;
   if (route === "/concept-02") return <ArchiveConcept />;
