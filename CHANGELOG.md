@@ -46,3 +46,8 @@ Added concepts 10–12 with original editorial, question-led and occupancy-focus
 ## Twelve-design rebuild, two loops
 
 Rebuilt all 12 sites with distinct structural heroes, navigation and typographic systems; original primary and secondary copy for all 108 pages; updated gallery, page illustrations, motion controls, project filters, and email-draft inquiries. Validation and browser-tool limitations are recorded in DESIGN.md.
+
+## Existing company content restored
+- All twelve designs now reuse Home, About, Services and Projects wording from cccbuild.com.
+- Retained original logo and photographs; source-image hashes matched the archived originals. Added source photos to supporting service pages.
+- Supplemental ICF explanation and working inquiry instructions retained.
