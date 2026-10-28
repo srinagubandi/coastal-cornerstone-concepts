@@ -1,0 +1,38 @@
+{
+  "updated": "2026-10-27T17:21:59.986Z",
+  "concepts": 12,
+  "pages": 108,
+  "copySources": [
+    "https://cccbuild.com/",
+    "https://cccbuild.com/about-us/",
+    "https://cccbuild.com/services/",
+    "https://cccbuild.com/our-projects/"
+  ],
+  "policy": "Reuse existing company copy across all designs. Layouts and animation vary. ICF educational explanation, resource introduction and inquiry instructions remain supplemental; no dedicated ICF source webpage exists. Exclude placeholder phone number, Latin filler and broken decorative assets.",
+  "images": [
+    {
+      "asset": "coastal-home.jpg",
+      "source": "https://cccbuild.com/wp-content/uploads/2025/04/Coastal-Home.jpg"
+    },
+    {
+      "asset": "commercial.jpg",
+      "source": "https://cccbuild.com/wp-content/uploads/2025/05/Modern-Building-Shot-400x284.jpg"
+    },
+    {
+      "asset": "hangar.jpg",
+      "source": "https://cccbuild.com/wp-content/uploads/2025/04/FAA-Hangar-Structural-Upgrades-400x284.jpg"
+    },
+    {
+      "asset": "icf-build.jpg",
+      "source": "https://cccbuild.com/wp-content/uploads/2025/04/Custom-ICF-1-story-build2.jpg"
+    },
+    {
+      "asset": "logo-reverse.png",
+      "source": "https://cccbuild.com/wp-content/uploads/2025/04/CCC-Logo-Reverse-300.png"
+    },
+    {
+      "asset": "logo.png",
+      "source": "https://cccbuild.com/wp-content/uploads/2025/04/CCC-Logo-300.png"
+    }
+  ]
+}
